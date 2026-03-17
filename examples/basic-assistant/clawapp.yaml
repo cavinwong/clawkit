@@ -1,0 +1,34 @@
+# ClawKit Application Manifest — Basic Assistant
+# Documentation: https://github.com/clawkit/clawkit/docs/manifest.md
+
+name: basic-assistant
+displayName: "Basic Assistant"
+description: "A general-purpose personal AI assistant built with ClawKit"
+version: "0.1.0"
+
+author:
+  name: "ClawKit Examples"
+  url: "https://github.com/clawkit/clawkit"
+
+license: MIT
+
+# Tool access policy
+tools:
+  profile: coding
+  allow:
+    - browser
+    - exec
+
+# Required capabilities
+requires:
+  tools:
+    - exec
+    - read
+    - write
+
+# ClawKit metadata
+clawkit:
+  tags:
+    - basic
+    - personal-assistant
+  homepage: "https://github.com/clawkit/clawkit/tree/main/examples/basic-assistant"

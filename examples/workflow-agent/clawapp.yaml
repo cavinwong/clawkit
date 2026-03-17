@@ -1,0 +1,33 @@
+# ClawKit Application Manifest — Workflow Agent
+
+name: workflow-agent
+displayName: "Workflow Agent"
+description: "An automation-focused agent with Lobster workflow pipelines"
+version: "0.1.0"
+
+author:
+  name: "ClawKit Examples"
+  url: "https://github.com/clawkit/clawkit"
+
+license: MIT
+
+tools:
+  profile: full
+  allow:
+    - browser
+    - exec
+    - cron
+
+requires:
+  tools:
+    - exec
+    - read
+    - write
+    - cron
+
+clawkit:
+  tags:
+    - workflow
+    - automation
+    - lobster
+  homepage: "https://github.com/clawkit/clawkit/tree/main/examples/workflow-agent"

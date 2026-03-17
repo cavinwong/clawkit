@@ -1,0 +1,39 @@
+{
+  "name": "clawkit-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ClawKit — The application development framework for OpenClaw",
+  "keywords": ["openclaw", "ai-agent", "framework", "clawkit"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawkit/clawkit.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "test": "pnpm -r test",
+    "lint": "eslint packages --ext .ts",
+    "format": "prettier --write \"packages/**/*.{ts,json,md}\"",
+    "typecheck": "pnpm -r typecheck",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "create-clawkit-app",
+  "version": "0.1.0",
+  "description": "Create a new ClawKit agent application with a single command",
+  "keywords": [
+    "openclaw",
+    "ai-agent",
+    "clawkit",
+    "create-app",
+    "scaffold"
+  ],
+  "homepage": "https://github.com/clawkit/clawkit#readme",
+  "bugs": {
+    "url": "https://github.com/clawkit/clawkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawkit/clawkit.git",
+    "directory": "packages/create-app"
+  },
+  "license": "MIT",
+  "author": "ClawKit Contributors",
+  "type": "module",
+  "bin": {
+    "create-clawkit-app": "./dist/bin/create.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@clawkit/cli": "workspace:*",
+    "chalk": "^5.3.0",
+    "enquirer": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "@clawkit/cli",
+  "version": "0.1.0",
+  "description": "CLI for ClawKit — scaffold, build, and deploy OpenClaw agent applications",
+  "keywords": [
+    "openclaw",
+    "ai-agent",
+    "clawkit",
+    "cli",
+    "scaffold"
+  ],
+  "homepage": "https://github.com/clawkit/clawkit#readme",
+  "bugs": {
+    "url": "https://github.com/clawkit/clawkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawkit/clawkit.git",
+    "directory": "packages/cli"
+  },
+  "license": "MIT",
+  "author": "ClawKit Contributors",
+  "type": "module",
+  "bin": {
+    "clawkit": "./dist/bin/clawkit.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@clawkit/core": "workspace:*",
+    "archiver": "^7.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "enquirer": "^2.4.1",
+    "esbuild": "^0.27.4",
+    "execa": "^9.3.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "ora": "^8.1.0",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/archiver": "^7.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "@types/semver": "^7.5.8",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
