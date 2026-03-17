@@ -8,7 +8,7 @@
     "dev": "clawkit dev",
     "build": "clawkit build",
     "pack": "clawkit pack",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
