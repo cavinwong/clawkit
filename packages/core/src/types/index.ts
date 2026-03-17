@@ -1,5 +1,5 @@
 /**
- * @clawkit/core - Core type definitions
+ * @openclaw-kit/core - Core type definitions
  *
  * These types mirror and extend the OpenClaw configuration schema,
  * providing a strongly-typed foundation for ClawKit applications.

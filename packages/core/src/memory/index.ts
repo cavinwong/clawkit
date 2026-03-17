@@ -1,5 +1,5 @@
 /**
- * @clawkit/core - Memory ORM
+ * @openclaw-kit/core - Memory ORM
  *
  * A lightweight abstraction over OpenClaw's file-based memory system.
  * Allows tools to read and write structured data to the agent's memory

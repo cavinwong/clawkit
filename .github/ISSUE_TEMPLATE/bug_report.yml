@@ -37,7 +37,7 @@ body:
         This is the most important part of the bug report!
       render: typescript
       placeholder: |
-        import { Tool, Field } from '@clawkit/core';
+        import { Tool, Field } from '@openclaw-kit/core';
 
         const myTool = Tool.define({
           // ...
@@ -65,7 +65,7 @@ body:
     id: clawkit-version
     attributes:
       label: ClawKit Version
-      placeholder: "e.g. @clawkit/core@0.1.0"
+      placeholder: "e.g. @openclaw-kit/core@0.1.0"
     validations:
       required: true
 

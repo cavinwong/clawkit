@@ -1,5 +1,5 @@
 /**
- * @clawkit/core - Manifest parser and validator
+ * @openclaw-kit/core - Manifest parser and validator
  *
  * Parses and validates clawapp.yaml / clawapp.json manifest files,
  * converting them into strongly-typed AppManifest objects.

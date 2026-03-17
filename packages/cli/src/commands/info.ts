@@ -3,7 +3,7 @@
  */
 
 import chalk from 'chalk';
-import { findManifest, loadManifest, loadSkillsFromDir } from '@clawkit/core';
+import { findManifest, loadManifest, loadSkillsFromDir } from '@openclaw-kit/core';
 import { join } from 'node:path';
 import { logger } from '../utils/logger.js';
 import { pathExists, findProjectRoot } from '../utils/fs.js';

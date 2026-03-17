@@ -1,12 +1,12 @@
 /**
- * @clawkit/core
+ * @openclaw-kit/core
  *
  * The core SDK for building OpenClaw agent applications.
  * Provides type-safe abstractions for the full ClawKit development lifecycle.
  *
  * @example
  * ```ts
- * import { Tool, Field, MemoryStore, loadManifest } from '@clawkit/core';
+ * import { Tool, Field, MemoryStore, loadManifest } from '@openclaw-kit/core';
  *
  * export const myTool = Tool.define({
  *   name: 'my_tool',

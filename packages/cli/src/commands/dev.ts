@@ -11,7 +11,7 @@ import { join, resolve } from 'node:path';
 import { watch } from 'node:fs';
 import chalk from 'chalk';
 import ora from 'ora';
-import { findManifest, loadManifest } from '@clawkit/core';
+import { findManifest, loadManifest } from '@openclaw-kit/core';
 import { logger } from '../utils/logger.js';
 import { findProjectRoot } from '../utils/fs.js';
 import { buildCommand } from './build.js';

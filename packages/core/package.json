@@ -1,5 +1,5 @@
 {
-  "name": "@clawkit/core",
+  "name": "@openclaw-kit/core",
   "version": "0.1.0",
   "description": "Core SDK for building OpenClaw agent applications — types, manifest parsing, Tool SDK, and Memory ORM",
   "keywords": [

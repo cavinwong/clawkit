@@ -7,7 +7,7 @@ ClawKit provides a type-safe SDK for building OpenClaw tools. It automatically i
 Tools are defined using `Tool.define()`. The `schema` object defines the inputs the LLM must provide.
 
 ```typescript
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 export const weatherTool = Tool.define({
   name: 'get_weather',

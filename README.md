@@ -4,7 +4,7 @@
 
 **The Application Development Framework for OpenClaw**
 
-[![npm version](https://img.shields.io/npm/v/@clawkit/core.svg?style=flat-square)](https://www.npmjs.com/package/@clawkit/core)
+[![npm version](https://img.shields.io/npm/v/@openclaw-kit/core.svg?style=flat-square)](https://www.npmjs.com/package/@openclaw-kit/core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -109,7 +109,7 @@ bindings:
 ClawKit provides a type-safe SDK for building OpenClaw plugins. It automatically infers input types and generates the required JSON Schema.
 
 ```typescript
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 export const weatherTool = Tool.define({
   name: 'get_weather',
@@ -145,8 +145,8 @@ const facts = await ctx.memory.search('preferences');
 
 This repository is a monorepo containing the following packages:
 
-- [`@clawkit/core`](./packages/core) — The core SDK, types, and manifest parser.
-- [`@clawkit/cli`](./packages/cli) — The command-line interface for building and packing apps.
+- [`@openclaw-kit/core`](./packages/core) — The core SDK, types, and manifest parser.
+- [`@openclaw-kit/cli`](./packages/cli) — The command-line interface for building and packing apps.
 - [`create-clawkit-app`](./packages/create-app) — The interactive project scaffolder.
 
 ## Examples

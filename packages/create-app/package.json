@@ -35,7 +35,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@clawkit/cli": "workspace:*",
+    "@openclaw-kit/cli": "workspace:*",
     "chalk": "^5.3.0",
     "enquirer": "^2.4.1"
   },

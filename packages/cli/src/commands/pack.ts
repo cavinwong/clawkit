@@ -7,7 +7,7 @@ import { readdir, stat, createReadStream, createWriteStream } from 'node:fs';
 import { promisify } from 'node:util';
 import chalk from 'chalk';
 import ora from 'ora';
-import { findManifest, loadManifest } from '@clawkit/core';
+import { findManifest, loadManifest } from '@openclaw-kit/core';
 import { logger } from '../utils/logger.js';
 import { pathExists, findProjectRoot } from '../utils/fs.js';
 import { buildCommand } from './build.js';

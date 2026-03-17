@@ -5,7 +5,7 @@
  * Useful for scheduling, logging, and time calculations.
  */
 
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 export const timestampTool = Tool.define({
   name: 'timestamp',

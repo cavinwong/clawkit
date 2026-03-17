@@ -5,7 +5,7 @@
  * They are compiled into an OpenClaw Plugin by `clawkit build`.
  */
 
-import type { ToolDefinition } from '@clawkit/core';
+import type { ToolDefinition } from '@openclaw-kit/core';
 import { wordCountTool } from './word-count.js';
 import { timestampTool } from './timestamp.js';
 

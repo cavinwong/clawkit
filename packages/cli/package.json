@@ -1,5 +1,5 @@
 {
-  "name": "@clawkit/cli",
+  "name": "@openclaw-kit/cli",
   "version": "0.1.0",
   "description": "CLI for ClawKit — scaffold, build, and deploy OpenClaw agent applications",
   "keywords": [
@@ -45,7 +45,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@clawkit/core": "workspace:*",
+    "@openclaw-kit/core": "workspace:*",
     "archiver": "^7.0.1",
     "chalk": "^5.3.0",
     "commander": "^12.1.0",

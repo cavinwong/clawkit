@@ -53,7 +53,7 @@
 ### 1. 插件与工具生态
 框架的生命力在于生态。
 - **Awesome ClawKit**：建立 `awesome-clawkit` 仓库，收集社区开发的优质 Skills、Tools 和 Lobster Workflows。
-- **官方认证包**：推出 `@clawkit/plugin-database`、`@clawkit/plugin-redis` 等官方维护的常用插件，降低开发门槛。
+- **官方认证包**：推出 `@openclaw-kit/plugin-database`、`@openclaw-kit/plugin-redis` 等官方维护的常用插件，降低开发门槛。
 
 ### 2. 激励贡献者
 - **Good First Issue**：维护一批带有 `good first issue` 标签的简单任务，吸引新手参与贡献。

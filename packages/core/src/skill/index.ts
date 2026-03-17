@@ -1,5 +1,5 @@
 /**
- * @clawkit/core - Skill utilities
+ * @openclaw-kit/core - Skill utilities
  *
  * Utilities for parsing, validating, and generating SKILL.md files
  * that conform to the OpenClaw AgentSkills specification.

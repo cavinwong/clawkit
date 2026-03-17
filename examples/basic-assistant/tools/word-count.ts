@@ -5,7 +5,7 @@
  * for a given text. Useful for writing and editing tasks.
  */
 
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 export const wordCountTool = Tool.define({
   name: 'word_count',

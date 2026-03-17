@@ -33,7 +33,7 @@ body:
       render: typescript
       placeholder: |
         // Proposed API:
-        import { Tool, Field } from '@clawkit/core';
+        import { Tool, Field } from '@openclaw-kit/core';
 
         const myTool = Tool.define({
           // new feature here

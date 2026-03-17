@@ -309,7 +309,7 @@ function generateToolsIndex(): string {
  * Register all your custom tools here.
  */
 
-import type { ToolDefinition } from '@clawkit/core';
+import type { ToolDefinition } from '@openclaw-kit/core';
 import { exampleTool } from './example-tool.js';
 
 /**
@@ -331,7 +331,7 @@ function generateExampleTool(): string {
  * Example custom tool — replace with your own implementation.
  */
 
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 /**
  * A simple echo tool that demonstrates the ClawKit Tool SDK.
@@ -401,7 +401,7 @@ function generatePackageJson(name: string): Record<string, unknown> {
       typecheck: 'tsc --noEmit',
     },
     dependencies: {
-      '@clawkit/core': '^0.1.0',
+      '@openclaw-kit/core': '^0.1.0',
     },
     devDependencies: {
       '@types/node': '^22.0.0',

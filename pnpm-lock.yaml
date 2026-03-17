@@ -38,11 +38,11 @@ importers:
 
   examples/basic-assistant:
     dependencies:
-      '@clawkit/core':
+      '@openclaw-kit/core':
         specifier: workspace:*
         version: link:../../packages/core
     devDependencies:
-      '@clawkit/cli':
+      '@openclaw-kit/cli':
         specifier: workspace:*
         version: link:../../packages/cli
       '@types/node':
@@ -57,7 +57,7 @@ importers:
 
   packages/cli:
     dependencies:
-      '@clawkit/core':
+      '@openclaw-kit/core':
         specifier: workspace:*
         version: link:../core
       archiver:
@@ -140,7 +140,7 @@ importers:
 
   packages/create-app:
     dependencies:
-      '@clawkit/cli':
+      '@openclaw-kit/cli':
         specifier: workspace:*
         version: link:../cli
       chalk:

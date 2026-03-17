@@ -1,5 +1,5 @@
 /**
- * @clawkit/cli — Programmatic API
+ * @openclaw-kit/cli — Programmatic API
  *
  * Exports the CLI commands as programmatic functions for use in
  * build tools, scripts, or custom tooling.

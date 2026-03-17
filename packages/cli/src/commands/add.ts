@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import { mkdir } from 'node:fs/promises';
 import chalk from 'chalk';
 import ora from 'ora';
-import { generateSkillTemplate } from '@clawkit/core';
+import { generateSkillTemplate } from '@openclaw-kit/core';
 import { logger } from '../utils/logger.js';
 import { pathExists, writeFileSafe, findProjectRoot } from '../utils/fs.js';
 
@@ -181,7 +181,7 @@ function generateToolTemplate(name: string, description?: string): string {
  * ${desc}
  */
 
-import { Tool, Field } from '@clawkit/core';
+import { Tool, Field } from '@openclaw-kit/core';
 
 export const ${varName} = Tool.define({
   name: '${toolName}',

@@ -12,7 +12,7 @@
  */
 
 import chalk from 'chalk';
-import { initCommand } from '@clawkit/cli';
+import { initCommand } from '@openclaw-kit/cli';
 
 // ─────────────────────────────────────────────
 // Banner

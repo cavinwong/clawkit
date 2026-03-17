@@ -14,7 +14,7 @@ import { join, resolve } from 'node:path';
 import { readFile, writeFile, copyFile, mkdir, readdir, stat } from 'node:fs/promises';
 import chalk from 'chalk';
 import ora from 'ora';
-import { loadManifest, findManifest, manifestToOpenClawConfig, loadSkillsFromDir } from '@clawkit/core';
+import { loadManifest, findManifest, manifestToOpenClawConfig, loadSkillsFromDir } from '@openclaw-kit/core';
 import { logger } from '../utils/logger.js';
 import { pathExists, writeFileSafe, writeJson, findProjectRoot } from '../utils/fs.js';
 
@@ -170,7 +170,7 @@ export async function buildCommand(options: BuildOptions = {}): Promise<void> {
         format: 'esm',
         target: 'node22',
         sourcemap: options.sourcemap ?? false,
-        external: ['@clawkit/core'],
+        external: ['@openclaw-kit/core'],
       });
 
       // Write plugin manifest
