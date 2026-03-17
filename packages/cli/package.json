@@ -54,7 +54,7 @@
     "execa": "^9.3.0",
     "fs-extra": "^11.2.0",
     "js-yaml": "^4.1.0",
-    "ora": "^8.1.0",
+    "ora": "^9.3.0",
     "semver": "^7.6.3"
   },
   "devDependencies": {
