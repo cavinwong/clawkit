@@ -5,9 +5,9 @@
   "description": "A general-purpose personal AI assistant — ClawKit example",
   "type": "module",
   "scripts": {
-    "dev": "clawkit dev",
-    "build": "clawkit build",
-    "pack": "clawkit pack",
+    "dev": "pnpm exec clawkit dev",
+    "build": "pnpm exec clawkit build",
+    "pack": "pnpm exec clawkit pack",
     "test": "vitest run --passWithNoTests",
     "typecheck": "pnpm exec tsc --noEmit"
   },
