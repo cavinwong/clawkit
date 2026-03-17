@@ -9,13 +9,13 @@
     "cli",
     "scaffold"
   ],
-  "homepage": "https://github.com/clawkit/clawkit#readme",
+  "homepage": "https://github.com/cavinwong/clawkit#readme",
   "bugs": {
-    "url": "https://github.com/clawkit/clawkit/issues"
+    "url": "https://github.com/cavinwong/clawkit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clawkit/clawkit.git",
+    "url": "https://github.com/cavinwong/clawkit.git",
     "directory": "packages/cli"
   },
   "license": "MIT",
@@ -38,9 +38,9 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "dev": "tsc -p tsconfig.build.json --watch",
-    "typecheck": "tsc --noEmit",
+    "build": "pnpm exec tsc -p tsconfig.build.json",
+    "dev": "pnpm exec tsc -p tsconfig.build.json --watch",
+    "typecheck": "pnpm exec tsc --noEmit",
     "test": "vitest run",
     "clean": "rm -rf dist"
   },
@@ -61,13 +61,13 @@
     "@types/archiver": "^7.0.0",
     "@types/fs-extra": "^11.0.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.0.0",
+    "@types/node": ">=18.0.0",
     "@types/semver": "^7.5.8",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "access": "public"

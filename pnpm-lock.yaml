@@ -12,7 +12,7 @@ importers:
         specifier: ^2.27.1
         version: 2.30.0(@types/node@22.19.15)
       '@types/node':
-        specifier: ^22.0.0
+        specifier: '>=18.0.0'
         version: 22.19.15
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.0.0
@@ -46,7 +46,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/cli
       '@types/node':
-        specifier: ^22.0.0
+        specifier: '>=18.0.0'
         version: 22.19.15
       typescript:
         specifier: ^5.5.0
@@ -101,7 +101,7 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       '@types/node':
-        specifier: ^22.0.0
+        specifier: '>=18.0.0'
         version: 22.19.15
       '@types/semver':
         specifier: ^7.5.8
@@ -129,7 +129,7 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       '@types/node':
-        specifier: ^22.0.0
+        specifier: '>=18.0.0'
         version: 22.19.15
       typescript:
         specifier: ^5.5.0
@@ -151,7 +151,7 @@ importers:
         version: 2.4.1
     devDependencies:
       '@types/node':
-        specifier: ^22.0.0
+        specifier: '>=18.0.0'
         version: 22.19.15
       typescript:
         specifier: ^5.5.0

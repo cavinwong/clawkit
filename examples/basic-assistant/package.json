@@ -9,18 +9,18 @@
     "build": "clawkit build",
     "pack": "clawkit pack",
     "test": "vitest run --passWithNoTests",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "pnpm exec tsc --noEmit"
   },
   "dependencies": {
     "@openclaw-kit/core": "workspace:*"
   },
   "devDependencies": {
     "@openclaw-kit/cli": "workspace:*",
-    "@types/node": "^22.0.0",
+    "@types/node": ">=18.0.0",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=18.0.0"
   }
 }
