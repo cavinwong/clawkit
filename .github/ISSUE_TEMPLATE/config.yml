@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a Question / Get Help
+    url: https://github.com/cavinwong/clawkit/discussions
+    about: Use GitHub Discussions for questions, ideas, and general conversation.
+  - name: 📖 Documentation
+    url: https://github.com/cavinwong/clawkit/tree/main/docs
+    about: Read the ClawKit documentation.
