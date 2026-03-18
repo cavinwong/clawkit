@@ -40,7 +40,7 @@
     "enquirer": "^2.4.1"
   },
   "devDependencies": {
-    "@types/node": ">=18.0.0",
+    "@types/node": ">=25.5.0",
     "typescript": "^5.5.0"
   },
   "engines": {
