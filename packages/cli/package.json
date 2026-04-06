@@ -50,7 +50,7 @@
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "enquirer": "^2.4.1",
-    "esbuild": "^0.27.4",
+    "esbuild": "^0.28.0",
     "execa": "^9.3.0",
     "fs-extra": "^11.2.0",
     "js-yaml": "^4.1.0",
