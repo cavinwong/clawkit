@@ -17,7 +17,7 @@
   "devDependencies": {
     "@openclaw-kit/cli": "workspace:*",
     "@types/node": ">=18.0.0",
-    "typescript": "^5.5.0",
+    "typescript": "^6.0.3",
     "vitest": "^2.0.0"
   },
   "engines": {
